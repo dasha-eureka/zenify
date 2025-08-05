@@ -1311,3 +1311,168 @@ border: 1px solid #00000017;
     border: 1px solid #00000017;
     background-color: #403F3F;
 }
+
+.get-in-touch-page {
+    margin: 200px auto 96px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.contact-img {
+    height: 722px;
+    width: 594px;
+    border-radius: 22px;
+}
+
+.contact-form {
+    background-color: #EFEFEF;
+    height: 722px;
+    width: 594px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-header span {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 500;
+    color: black;
+}
+
+.contact-text span {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-names {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 261px;
+}
+
+label {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #344054;
+}
+
+input {
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #667085;
+    padding-left: 14px;
+    outline: none;
+}
+
+.contact-email, .contact-phone {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.code-phone {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+}
+
+.code-phone select {
+    border: none;
+    background: white;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #101828;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px 0 0 8px;
+}
+
+.code-phone input {
+    border: none;
+    flex: 1;
+    height: 100%;
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #667085;
+    outline: none;
+    border-radius: 0 8px 8px 0;
+}
+
+.code-phone select:focus,
+.code-phone input:focus {
+    outline: none;
+}
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contact-message input {
+    height: 134px;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    border: 1px solid #D0D5DD;
+}
+
+.contact-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-checkbox label {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.contact-checkbox a {
+    color: #667085 !important;
+}
