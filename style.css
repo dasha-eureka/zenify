@@ -1451,11 +1451,15 @@ input {
     height: 134px;
 }
 
-.checkbox {
+.checkbox2 {
     height: 20px;
     width: 20px;
     border-radius: 6px;
     border: 1px solid #D0D5DD;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
 }
 
 .contact-checkbox {
@@ -1475,4 +1479,18 @@ input {
 
 .contact-checkbox a {
     color: #667085 !important;
+}
+
+.contact-message textarea {
+    height: 134px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #667085;
+    padding-left: 14px;
+    padding-top: 10px;
+    outline: none;
 }
