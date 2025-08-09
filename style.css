@@ -1402,13 +1402,13 @@ border: 1px solid #00000017;
 
 .contact-form {
     background-color: #EFEFEF;
-    height: 722px;
+    height: auto;
     width: 594px;
     border-radius: 22px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    padding: 20px 20px 22px 20px;
 }
 
 .contact-header span {
@@ -1471,6 +1471,14 @@ input {
     display: flex;
     flex-direction: column;
     gap: 6px;
+}
+
+.error {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: red;
 }
 
 .code-phone {
