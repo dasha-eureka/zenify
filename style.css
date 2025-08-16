@@ -2009,3 +2009,144 @@ button {
 select {
     cursor: pointer;
 }
+
+.details-blog {
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto 64px auto;
+    max-width: 1220px;
+    gap: 20px;
+}
+
+.details-blog h1 {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+.details-blog p {
+    max-width: 708px;
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 22px;
+    height: 137px;
+    background-color: #EEEEEE;
+    border-radius: 12px;
+    max-width: 1220px;
+    align-items: center;
+}
+
+.date-author {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.date-author span {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #5F6D7E;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.author-info img {
+    width: 48px;
+    height: 48px;
+}
+
+.author-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name p {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.author-name span {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.author-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.author-socials img {
+    height: 24px;
+    width: 24px;
+}
+
+.blog-post-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 128px auto;
+    max-width: 1220px;
+}
+
+.blog-post-text h2 {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #101828;
+    margin-bottom: 16px;
+}
+
+.blog-post-text p {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #667085;
+    margin-bottom: 64px;
+    max-width: 1193px;
+}
+
+.recent-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.recent-header {
+    font-family: "Inter", "Helvetica Nue", sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.pricing-header {
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto 192px auto;
+    max-width: 1220px;
+}
